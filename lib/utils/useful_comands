@@ -1,0 +1,28 @@
+//////build model auto(New)///////////
+flutter packages pub run build_runner build
+
+//////build model auto(old)///////////
+flutter packages pub run build_runner build --delete-conflicting-outputs
+
+/////////Change Logo/////////////////
+flutter pub run flutter_launcher_icons:main
+
+/////////Cache repair/////////////////
+flutter pub cache repair
+
+///////////Clean code//////////////
+flutter clear
+
+////////////get Packages//////////////
+flutter pub get
+
+/////////Get App build//////////////////
+flutter build apk
+
+///////////Display drive image
+https://drive.google.com/uc?export=view&id=Add your link Id
+
+
+
+//Get appbundel for playstore
+flutter build appbundle
